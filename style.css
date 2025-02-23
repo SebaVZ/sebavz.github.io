@@ -1,0 +1,96 @@
+.icon {
+    height: 15px;
+    width: 15px;
+}
+
+.icon-big {
+    height: 30px;
+    width: 30px;
+    font-size: 13px;
+
+}
+
+.paragraph {
+    font-family: 'Lucida Console', monospace;
+
+}
+
+.paragraph2 {
+    font-family: "Rowdies", serif;
+    font-weight: 300;
+    font-size: larger;
+}
+
+.heading {
+    font-family: 'Comic Sans MS', cursive;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+.heading2 {
+    font-family: "Teko", serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.mini-heading {
+    font-family: "Overpass", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+.text-list {
+    font-family: "Plus Jakarta Sans", serif;
+}
+
+.kask {
+    font-family: 'Impact', fantasy;
+    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Lucida Console', monospace;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.db-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    min-width: 120px;
+}
+
+.separator-underline {
+    border-bottom: 2px solid cyan;
+    width: 200px;
+}
+
+.custom-img {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .custom-img {
+        padding: 10px;
+    }
+}
